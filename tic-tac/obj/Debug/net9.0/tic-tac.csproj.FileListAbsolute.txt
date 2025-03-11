@@ -1,0 +1,14 @@
+c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\bin\Debug\net9.0\tic-tac.exe
+c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\bin\Debug\net9.0\tic-tac.deps.json
+c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\bin\Debug\net9.0\tic-tac.runtimeconfig.json
+c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\bin\Debug\net9.0\tic-tac.dll
+c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\bin\Debug\net9.0\tic-tac.pdb
+c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.AssemblyInfoInputs.cache
+c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.AssemblyInfo.cs
+c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.csproj.CoreCompileInputs.cache
+c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.dll
+c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\refint\tic-tac.dll
+c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.pdb
+c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.genruntimeconfig.cache
+c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\ref\tic-tac.dll

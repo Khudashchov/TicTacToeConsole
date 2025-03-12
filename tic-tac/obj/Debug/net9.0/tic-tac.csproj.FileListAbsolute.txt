@@ -12,3 +12,4 @@ c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\n
 c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.pdb
 c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.genruntimeconfig.cache
 c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\ref\tic-tac.dll
+c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.sourcelink.json

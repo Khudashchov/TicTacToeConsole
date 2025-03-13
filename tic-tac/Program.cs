@@ -11,7 +11,7 @@ void FillArray()
     {
         for (int j = 0; j < 3; j++)
         {
-            cells[i, j] = new Cell(); 
+            cells[i, j] = new Cell();
         }
     }
 }
@@ -24,8 +24,26 @@ void Field()
     {
         Console.Write($"{k+1}|");
         for(int l = 0; l < 3; l++)
-        {
-            Console.Write($" {cells[k,l].symbol} |");
+        {   
+            if(cells[k,l].symbol == 'X')
+            {
+                Console.BackgroundColor = ConsoleColor.Red;
+                Console.Write($" {cells[k,l].symbol} ");
+                Console.ResetColor();
+                Console.Write("|");
+            } else if(cells[k,l].symbol == 'O')
+            {
+                Console.BackgroundColor = ConsoleColor.Blue;
+                Console.Write($" {cells[k,l].symbol} ");
+                Console.ResetColor();
+                Console.Write("|");
+            } else
+            {
+                Console.BackgroundColor = ConsoleColor.White;
+                Console.Write($" {cells[k,l].symbol} ");
+                Console.ResetColor();
+                Console.Write("|");
+            }
         }
         Console.Write(" Y");
         Console.WriteLine();
@@ -34,9 +52,196 @@ void Field()
     Console.WriteLine("   X   X   X  ");
 }
 
-bool CheckBoard()
+bool checkWinX()
 {
+    int XCount = 0;
+    for(int i = 0; i < 3; i++)
+    {
+        for(int j = 0; j < 3; j++)
+        {
+            if(cells[i,j].symbol == 'X')
+            {
+                XCount++;
+            }
+        }
+        if(XCount == 3)
+        {
+            return true;
+        } else
+        {
+            XCount = 0;
+        }
+    }
+
+    for(int i = 0; i < 3; i++)
+    {
+        for(int j = 0; j < 3; j++)
+        {
+            if(cells[j,i].symbol == 'X')
+            {
+                XCount++;
+            }
+        }
+        if(XCount == 3)
+        {
+            return true;
+        } else
+        {
+            XCount = 0;
+        }
+    }
+
+    int k = 0;
+    for(int j = 0; j < 3; j++)
+    {
+        if(cells[j,k].symbol == 'X')
+        {
+            XCount++;
+        }
+        k++;
+    }
+    if(XCount == 3)
+    {
+        return true;
+    } else
+    {
+        XCount = 0;
+    }
+
+    k = 3;
+    for(int j = 0; j < 3; j++)
+    {
+        if(cells[j,k].symbol == 'X')
+        {
+            XCount++;
+        }
+        k--;
+    }
+    if(XCount == 3)
+    {
+        return true;
+    } else
+    {
+        XCount = 0;
+    }
+
+    return false;
+}
+
+bool checkWinO()
+{
+    int OCount = 0;
+    for(int i = 0; i < 3; i++)
+    {
+        for(int j = 0; j < 3; j++)
+        {
+            if(cells[i,j].symbol == 'O')
+            {
+                OCount++;
+            }
+        }
+        if(OCount == 3)
+        {
+            return true;
+        } else
+        {
+            OCount = 0;
+        }
+    }
+
+    for(int i = 0; i < 3; i++)
+    {
+        for(int j = 0; j < 3; j++)
+        {
+            if(cells[j,i].symbol == 'O')
+            {
+                OCount++;
+            }
+        }
+        if(OCount == 3)
+        {
+            return true;
+        } else
+        {
+            OCount = 0;
+        }
+    }
+
+    int k = 0;
+    for(int j = 0; j < 3; j++)
+    {
+        if(cells[j,k].symbol == 'O')
+        {
+            OCount++;
+        }
+        k++;
+    }
+    if(OCount == 3)
+    {
+        return true;
+    } else
+    {
+        OCount = 0;
+    }
+
+    k = 3;
+    for(int j = 0; j < 3; j++)
+    {
+        if(cells[j,k].symbol == 'O')
+        {
+            OCount++;
+        }
+        k--;
+    }
+    if(OCount == 3)
+    {
+        return true;
+    } else
+    {
+        OCount = 0;
+    }
+
+    return false;
+}
+
+bool CheckForDraw()
+{
+    for(int q = 0; q < 3; q++)
+    {
+        for(int w = 0; w < 3; w++)
+        {
+            if(cells[q,w].symbol == '#')
+            {
+                return false;
+            }
+        }
+    }
     return true;
+}
+
+void Winner()
+{
+    if(checkWinO())
+    {
+        Console.WriteLine("O WIN !");
+        Field();
+        FillArray();
+        GameStatus = false;
+    } 
+    if(CheckForDraw())
+    {
+        Console.WriteLine("It`s a DRAW ! ");
+        Field();
+        FillArray();
+        GameStatus = false;
+    }
+    if(checkWinX())
+    {
+        Console.WriteLine("X WIN !");
+        Field();
+        FillArray();
+        GameStatus = false;
+    } 
 }
 
 void Game()
@@ -97,6 +302,9 @@ void Game()
                 cells[PosY - 1, PosX - 1].SetO();
                 MoveX = true;
             }
+
+            Winner();
+
         }catch(IndexOutOfRangeException)
         {
             Console.WriteLine("Set position inside the field !");

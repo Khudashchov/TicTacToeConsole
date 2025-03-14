@@ -5,13 +5,21 @@ int PosX , PosY;
 bool MoveX = true;
 char XorO = '#';
 
+for (int i = 0; i < 3; i++)
+{
+    for (int j = 0; j < 3; j++)
+    {
+        cells[i, j] = new Cell();
+    }
+}
+
 void FillArray()
 {
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 3; j++)
         {
-            cells[i, j] = new Cell();
+            cells[i, j].symbol = '#';
         }
     }
 }
@@ -108,7 +116,7 @@ bool checkWinX()
         XCount = 0;
     }
 
-    k = 3;
+    k = 2;
     for(int j = 0; j < 3; j++)
     {
         if(cells[j,k].symbol == 'X')
@@ -184,7 +192,7 @@ bool checkWinO()
         OCount = 0;
     }
 
-    k = 3;
+    k = 2;
     for(int j = 0; j < 3; j++)
     {
         if(cells[j,k].symbol == 'O')
@@ -246,6 +254,7 @@ void Winner()
 
 void Game()
 {
+    GameStatus = true;
     FillArray();
     do
     {

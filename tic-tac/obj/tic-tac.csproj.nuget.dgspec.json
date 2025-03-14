@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gamer\\OneDrive\\Desktop\\PROJECTS\\tic-tac-toe-Console\\tic-tac\\tic-tac.csproj": {}
+    "c:\\Users\\gamer\\OneDrive\\Desktop\\PROJECTS\\tic-tac-toe-Console\\tic-tac\\tic-tac.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gamer\\OneDrive\\Desktop\\PROJECTS\\tic-tac-toe-Console\\tic-tac\\tic-tac.csproj": {
+    "c:\\Users\\gamer\\OneDrive\\Desktop\\PROJECTS\\tic-tac-toe-Console\\tic-tac\\tic-tac.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gamer\\OneDrive\\Desktop\\PROJECTS\\tic-tac-toe-Console\\tic-tac\\tic-tac.csproj",
+        "projectUniqueName": "c:\\Users\\gamer\\OneDrive\\Desktop\\PROJECTS\\tic-tac-toe-Console\\tic-tac\\tic-tac.csproj",
         "projectName": "tic-tac",
-        "projectPath": "C:\\Users\\gamer\\OneDrive\\Desktop\\PROJECTS\\tic-tac-toe-Console\\tic-tac\\tic-tac.csproj",
+        "projectPath": "c:\\Users\\gamer\\OneDrive\\Desktop\\PROJECTS\\tic-tac-toe-Console\\tic-tac\\tic-tac.csproj",
         "packagesPath": "C:\\Users\\gamer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gamer\\OneDrive\\Desktop\\PROJECTS\\tic-tac-toe-Console\\tic-tac\\obj\\",
+        "outputPath": "c:\\Users\\gamer\\OneDrive\\Desktop\\PROJECTS\\tic-tac-toe-Console\\tic-tac\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gamer\\AppData\\Roaming\\NuGet\\NuGet.Config"

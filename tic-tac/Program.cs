@@ -231,22 +231,22 @@ void Winner()
 {
     if(checkWinO())
     {
-        Console.WriteLine("O WIN !");
         Field();
+        Console.WriteLine("O WIN !");
         FillArray();
         GameStatus = false;
     } 
     if(CheckForDraw())
     {
-        Console.WriteLine("It`s a DRAW ! ");
         Field();
+        Console.WriteLine("It`s a DRAW ! ");
         FillArray();
         GameStatus = false;
     }
     if(checkWinX())
     {
-        Console.WriteLine("X WIN !");
         Field();
+        Console.WriteLine("X WIN !");
         FillArray();
         GameStatus = false;
     } 
@@ -335,6 +335,7 @@ while (MenuStatus)
     {
         case 1:
             Game();
+            GC.Collect();
             break;
         case 2: MenuStatus = false;
             break;

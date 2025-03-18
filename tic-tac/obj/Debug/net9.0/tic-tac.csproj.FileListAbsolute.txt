@@ -13,3 +13,18 @@ c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\n
 c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.genruntimeconfig.cache
 c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\ref\tic-tac.dll
 c:\Users\gamer\OneDrive\Desktop\PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.sourcelink.json
+C:\Users\CLXUD\Desktop\KPI\Github PROJECTS\tic-tac-toe-Console\tic-tac\bin\Debug\net9.0\tic-tac.exe
+C:\Users\CLXUD\Desktop\KPI\Github PROJECTS\tic-tac-toe-Console\tic-tac\bin\Debug\net9.0\tic-tac.deps.json
+C:\Users\CLXUD\Desktop\KPI\Github PROJECTS\tic-tac-toe-Console\tic-tac\bin\Debug\net9.0\tic-tac.runtimeconfig.json
+C:\Users\CLXUD\Desktop\KPI\Github PROJECTS\tic-tac-toe-Console\tic-tac\bin\Debug\net9.0\tic-tac.dll
+C:\Users\CLXUD\Desktop\KPI\Github PROJECTS\tic-tac-toe-Console\tic-tac\bin\Debug\net9.0\tic-tac.pdb
+C:\Users\CLXUD\Desktop\KPI\Github PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CLXUD\Desktop\KPI\Github PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.AssemblyInfoInputs.cache
+C:\Users\CLXUD\Desktop\KPI\Github PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.AssemblyInfo.cs
+C:\Users\CLXUD\Desktop\KPI\Github PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.csproj.CoreCompileInputs.cache
+C:\Users\CLXUD\Desktop\KPI\Github PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.sourcelink.json
+C:\Users\CLXUD\Desktop\KPI\Github PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.dll
+C:\Users\CLXUD\Desktop\KPI\Github PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\refint\tic-tac.dll
+C:\Users\CLXUD\Desktop\KPI\Github PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.pdb
+C:\Users\CLXUD\Desktop\KPI\Github PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\tic-tac.genruntimeconfig.cache
+C:\Users\CLXUD\Desktop\KPI\Github PROJECTS\tic-tac-toe-Console\tic-tac\obj\Debug\net9.0\ref\tic-tac.dll

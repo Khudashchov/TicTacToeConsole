@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CLXUD\\Desktop\\KPI\\Github PROJECTS\\tic-tac-toe-Console\\tic-tac\\tic-tac.csproj": {}
+    "C:\\Users\\gamer\\OneDrive\\Desktop\\tic tac toe\\tic-tac-toe-Console\\tic-tac\\tic-tac.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CLXUD\\Desktop\\KPI\\Github PROJECTS\\tic-tac-toe-Console\\tic-tac\\tic-tac.csproj": {
+    "C:\\Users\\gamer\\OneDrive\\Desktop\\tic tac toe\\tic-tac-toe-Console\\tic-tac\\tic-tac.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CLXUD\\Desktop\\KPI\\Github PROJECTS\\tic-tac-toe-Console\\tic-tac\\tic-tac.csproj",
+        "projectUniqueName": "C:\\Users\\gamer\\OneDrive\\Desktop\\tic tac toe\\tic-tac-toe-Console\\tic-tac\\tic-tac.csproj",
         "projectName": "tic-tac",
-        "projectPath": "C:\\Users\\CLXUD\\Desktop\\KPI\\Github PROJECTS\\tic-tac-toe-Console\\tic-tac\\tic-tac.csproj",
-        "packagesPath": "C:\\Users\\CLXUD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CLXUD\\Desktop\\KPI\\Github PROJECTS\\tic-tac-toe-Console\\tic-tac\\obj\\",
+        "projectPath": "C:\\Users\\gamer\\OneDrive\\Desktop\\tic tac toe\\tic-tac-toe-Console\\tic-tac\\tic-tac.csproj",
+        "packagesPath": "C:\\Users\\gamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gamer\\OneDrive\\Desktop\\tic tac toe\\tic-tac-toe-Console\\tic-tac\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CLXUD\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\gamer\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
